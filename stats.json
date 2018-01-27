@@ -1,0 +1,181 @@
+yarn wrb-dep v1.0.2
+$ webpack --config webpack.config.wrb.js "--profile" "--json"
+{
+  "errors": [
+    "./src/index.js\nModule build failed: Error: Could not load url-loader!/Users/derek.miranda/Projects/img-import-test/src/red_guy.png (imported by /Users/derek.miranda/Projects/img-import-test/src/index.js): Module build failed: Error: Unexpected character '�'\n    at error (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:170:15)\n    at Module.error (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:17194:9)\n    at tryParse (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:16889:16)\n    at Module.setSource (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:16946:24)\n    at /Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:19442:20\n    at <anonymous>\n    at /Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:19417:19\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "./node_modules/url-loader!./src/red_guy.png\nModule build failed: Error: Unexpected character '�'\n    at error (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:170:15)\n    at Module.error (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:17194:9)\n    at tryParse (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:16889:16)\n    at Module.setSource (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:16946:24)\n    at /Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:19442:20\n    at <anonymous>\n @ ./src/index.js"
+  ],
+  "warnings": [],
+  "version": "3.10.0",
+  "hash": "3defa1a211eeb1d8cdb3",
+  "time": 313,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "main": "bundle.js"
+  },
+  "assets": [
+    {
+      "name": "bundle.js",
+      "size": 3481,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "bundle.js"
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 1008,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "bundle.js"
+      ],
+      "hash": "bbb7913e2da555a143a2",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/derek.miranda/Projects/img-import-test/node_modules/webpack-rollup-loader/index.js??ref--0!/Users/derek.miranda/Projects/img-import-test/src/index.js",
+          "name": "./src/index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 1008,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "profile": {
+            "factory": 38,
+            "building": 241
+          },
+          "failed": true,
+          "errors": 1,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "throw new Error(\"Module build failed: Error: Could not load url-loader!/Users/derek.miranda/Projects/img-import-test/src/red_guy.png (imported by /Users/derek.miranda/Projects/img-import-test/src/index.js): Module build failed: Error: Unexpected character '�'\\n    at error (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:170:15)\\n    at Module.error (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:17194:9)\\n    at tryParse (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:16889:16)\\n    at Module.setSource (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:16946:24)\\n    at /Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:19442:20\\n    at <anonymous>\\n    at /Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:19417:19\\n    at <anonymous>\\n    at process._tickCallback (internal/process/next_tick.js:188:7)\");"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "/Users/derek.miranda/Projects/img-import-test/node_modules/webpack-rollup-loader/index.js??ref--0!/Users/derek.miranda/Projects/img-import-test/src/index.js",
+          "moduleIdentifier": "/Users/derek.miranda/Projects/img-import-test/node_modules/webpack-rollup-loader/index.js??ref--0!/Users/derek.miranda/Projects/img-import-test/src/index.js",
+          "moduleName": "./src/index.js",
+          "loc": "",
+          "name": "main",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/Users/derek.miranda/Projects/img-import-test/node_modules/webpack-rollup-loader/index.js??ref--0!/Users/derek.miranda/Projects/img-import-test/src/index.js",
+      "name": "./src/index.js",
+      "index": 0,
+      "index2": 0,
+      "size": 1008,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "profile": {
+        "factory": 38,
+        "building": 241
+      },
+      "failed": true,
+      "errors": 1,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "throw new Error(\"Module build failed: Error: Could not load url-loader!/Users/derek.miranda/Projects/img-import-test/src/red_guy.png (imported by /Users/derek.miranda/Projects/img-import-test/src/index.js): Module build failed: Error: Unexpected character '�'\\n    at error (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:170:15)\\n    at Module.error (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:17194:9)\\n    at tryParse (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:16889:16)\\n    at Module.setSource (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:16946:24)\\n    at /Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:19442:20\\n    at <anonymous>\\n    at /Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:19417:19\\n    at <anonymous>\\n    at process._tickCallback (internal/process/next_tick.js:188:7)\");"
+    },
+    {
+      "id": 1,
+      "identifier": "/Users/derek.miranda/Projects/img-import-test/node_modules/url-loader/index.js!/Users/derek.miranda/Projects/img-import-test/node_modules/webpack-rollup-loader/index.js??ref--0!/Users/derek.miranda/Projects/img-import-test/src/red_guy.png",
+      "name": "./node_modules/url-loader!./src/red_guy.png",
+      "index": null,
+      "index2": null,
+      "size": 632,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "assets": [],
+      "issuer": "/Users/derek.miranda/Projects/img-import-test/node_modules/webpack-rollup-loader/index.js??ref--0!/Users/derek.miranda/Projects/img-import-test/src/index.js",
+      "issuerId": 0,
+      "issuerName": "./src/index.js",
+      "profile": {
+        "factory": 5,
+        "building": 40
+      },
+      "failed": true,
+      "errors": 1,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/Users/derek.miranda/Projects/img-import-test/node_modules/webpack-rollup-loader/index.js??ref--0!/Users/derek.miranda/Projects/img-import-test/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "loader",
+          "userRequest": "url-loader!/Users/derek.miranda/Projects/img-import-test/src/red_guy.png",
+          "loc": "url-loader!/Users/derek.miranda/Projects/img-import-test/src/red_guy.png"
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": null,
+      "source": "throw new Error(\"Module build failed: Error: Unexpected character '�'\\n    at error (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:170:15)\\n    at Module.error (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:17194:9)\\n    at tryParse (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:16889:16)\\n    at Module.setSource (/Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:16946:24)\\n    at /Users/derek.miranda/Projects/img-import-test/node_modules/rollup/dist/rollup.js:19442:20\\n    at <anonymous>\");"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
