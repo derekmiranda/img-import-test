@@ -16,16 +16,16 @@ module.exports = {
 				use: {
 					loader: 'webpack-rollup-loader',
 					options: {
-						plugins: [rollupPluginUrl({
-							emitFiles: false,
-							include: [
-								'**/*.png',
-								'**/*.jpg',
-								'**/*.gif',
-								'**/*.svg',
-							],
-							limit: Infinity,
-						})]
+						// plugins: [rollupPluginUrl({
+						// 	emitFiles: false,
+						// 	include: [
+						// 		'**/*.png',
+						// 		'**/*.jpg',
+						// 		'**/*.gif',
+						// 		'**/*.svg',
+						// 	],
+						// 	limit: Infinity,
+						// })]
 					},
 				},
 			},

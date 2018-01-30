@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "wrb-dep": "webpack --config webpack.config.wrb.js",
+    "wrb-dep-1": "webpack --config webpack.config.wrb.js",
+    "wrb-dep-2": "webpack --config webpack.config.wrb.no-url-plugin.js",
     "url-dep": "webpack --config webpack.config.url.js"
   },
   "keywords": [],
